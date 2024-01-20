@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
   return (
@@ -21,7 +21,7 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <Link
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https:www.linkedin.com/in/jessadakorn-paopatimakorn'
               target='_blank'
               rel='noreferrer'
             >
@@ -30,7 +30,7 @@ const Main = () => {
               </div>
             </Link>
             <Link
-              href='https://github.com/fireclint'
+              href='https://github.com/TurboJessadakorn'
               target='_blank'
               rel='noreferrer'
             >
@@ -38,16 +38,25 @@ const Main = () => {
                 <FaGithub />
               </div>
             </Link>
+            <Link
+              href='https://www.facebook.com/jessadakorn.paopatimakorn/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaFacebook />
+              </div>
+            </Link>
             <Link href='/#contact'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href='/resume'>
+            {/* <Link href='/resume'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

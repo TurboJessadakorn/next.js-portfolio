@@ -29,7 +29,7 @@ const nomadml = () => {
           <p>
             NomadML is a platform that allows users to effortlessly create machine learning models without any coding skills or extensive knowledge in machine learning. Developed using Next.js for the frontend, Nest.js for the backend, and MongoDB for the database, NomadML offers a seamless experience for users to harness the power of machine learning.
             With NomadML, users can dynamically generate machine learning models using JSON forms integrated into the Next.js frontend. The platform simplifies the model creation process, making it accessible to a wide audience. Additionally, NomadML ensures the security of user data through authentication powered by the Keycloak API.
-            NomadML's user-friendly interface allows individuals to build, customize, and deploy machine learning models effortlessly. Say goodbye to complex coding and hello to the future of machine learning with NomadML.
+            NomadML&#39;s user-friendly interface allows individuals to build, customize, and deploy machine learning models effortlessly. Say goodbye to complex coding and hello to the future of machine learning with NomadML.
           </p>
 
           {/* <a
