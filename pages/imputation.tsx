@@ -27,36 +27,33 @@ const imputation = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This platform, known as the Genotype Imputation Platform, was developed using Nuxt.js for the frontend and Django for the backend, with MongoDB serving as the database. Hosted efficiently, the platform enables researchers within the company to effortlessly create genome imputations. 
+            Users can seamlessly input their genomic data, and the platform streamlines the imputation process, significantly reducing the time required. The collected imputation data is stored securely in our database. The user-friendly interface allows researchers to manage their imputations without the need for coding expertise. 
+            Additionally, the platform offers authentication features, enabling users to sign up and sign in with an email address. 
+            This project is empowered by the integration of various technologies to provide a robust and efficient solution for genomic research.
           </p>
+
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/TurboJessadakorn/genotype-imputation-platform'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
-          <a
-            href='https://property-finder-development.web.app/'
+          {/* <a
+            href='https://ext9.nbt.or.th/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Demo</button>
-          </a>
+          </a> */}
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1'>
+            <div className='grid grid-cols-3 md:grid-cols-1 ml-2'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Vue JS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind
@@ -65,13 +62,10 @@ const imputation = () => {
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Python
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
+                <RiRadioButtonFill className='pr-1' /> Minio file storage
               </p>
             </div>
           </div>

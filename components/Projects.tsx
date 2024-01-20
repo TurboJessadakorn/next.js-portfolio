@@ -20,20 +20,20 @@ const Projects = () => {
             title='NomadML'
             backgroundImg={nomadmlImg}
             projectUrl='/nomadml'
-            tech='Next.js, Nest.js, MongoDB'
+            tech='Next JS'
           />
           <ProjectItem
             title='Genotype Imputation Platform'
             backgroundImg={imputationImg}
             projectUrl='/imputation'
-            tech='Nuxt.js, Django, MongoDB'
+            tech='Nuxt JS'
 
           />
           <ProjectItem
-            title='Netflix App'
+            title='Cassava Store Website'
             backgroundImg={cassavaImg}
-            projectUrl='/netflix'
-            tech='Vite.js, Django, MongoDB'
+            projectUrl='/cassava'
+            tech='Vite JS'
 
           />
           <ProjectItem

@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import connect4Img from '../public/assets/projects/connect4.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const twitch = () => {
+const connect4 = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const twitch = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={twitchImg}
+          src={connect4Img}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Twitch UI</h2>
-          <h3>Next JS / Tailwind / Next Auth</h3>
+          <h2 className='py-2'>Connect4 AI</h2>
+          <h3>Python / Pygame </h3>
         </div>
       </div>
 
@@ -35,15 +35,15 @@ const twitch = () => {
             few features to note with this project are lazy loading images using
             the Image component, built in routing, and Next/Auth Context.
           </p>
-          <a
+          {/* <a
             href='https://twitch-nextjs-tailwind.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          </a>
+          </a> */}
           <a
-            href='https://github.com/fireclint/twitch-nextjs-tailwind'
+            href='https://github.com/TurboJessadakorn/Connect-4-AI'
             target='_blank'
             rel='noreferrer'
           >
@@ -84,4 +84,4 @@ const twitch = () => {
   );
 };
 
-export default twitch;
+export default connect4;

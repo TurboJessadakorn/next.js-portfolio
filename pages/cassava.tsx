@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cassavaImg from '../public/assets/projects/cassava.jpg';
+import cassavaImg from '../public/assets/projects/cassava.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -17,8 +17,8 @@ const cassava = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>cassava App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Cassava Store Website</h2>
+          <h3>Vite JS / Tailwind / Django / MongoDB</h3>
         </div>
       </div>
 
@@ -27,15 +27,15 @@ const cassava = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            This platform was constructed using ViteJS for the frontend and is hosted on Firebase. 
+            Researchers can efficiently collect and manage potato species and genomes data in our database through our cassava store website. 
+            The user-friendly interface enables researchers to analyze the data effortlessly without the need for coding, significantly reducing the time required for analysis. 
+            The website integrates Django as the backend framework and utilizes MongoDB for the database. 
+            Additionally, user authentication is implemented, allowing researchers to sign up and sign in with their email addresses to save and revisit their research data conveniently. 
+            The seamless data handling is made possible through our integration with specialized APIs tailored for this purpose.
           </p>
-          <a
+
+          {/* <a
             href='https://github.com/fireclint/netflix-react-tailwind'
             target='_blank'
             rel='noreferrer'
@@ -48,26 +48,26 @@ const cassava = () => {
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Demo</button>
-          </a>
+          </a> */}
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1'>
+            <div className='grid grid-cols-3 md:grid-cols-1 ml-2'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Vue JS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Naive UI
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Python
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> IMDB API
+                <RiRadioButtonFill className='pr-1' /> Minio file storage
               </p>
             </div>
           </div>
