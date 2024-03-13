@@ -27,7 +27,7 @@ const connect4 = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            "Connect 4 AI" is a Python-based project aimed at developing an artificial intelligence capable of playing the classic game of Connect 4. 
+            &ldquo;Connect 4 AI&ldquo; is a Python-based project aimed at developing an artificial intelligence capable of playing the classic game of Connect 4. 
             Leveraging the powerful Minimax algorithm, this AI is designed to analyze possible moves and outcomes, strategically selecting the best path to victory against the user. 
             The project utilizes the Pygame library to create a visually engaging and interactive interface, allowing users to simulate games of Connect 4 against the AI.
           </p>
