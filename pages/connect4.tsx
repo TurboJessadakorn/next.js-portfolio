@@ -18,7 +18,7 @@ const connect4 = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Connect4 AI</h2>
-          <h3>Python / Pygame </h3>
+          <h3>Python</h3>
         </div>
       </div>
 
@@ -27,13 +27,9 @@ const connect4 = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This appplication was built using NEXT.JS and is styled with
-            Tailwind CSS. The application is hosted statically using Vercel.
-            This is a mobile responsive recreation of Twitch.tv and features
-            Next/Auth.js for authentication. Users may choose to be
-            authenticated with either a Github account or a Google account. A
-            few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context.
+            "Connect 4 AI" is a Python-based project aimed at developing an artificial intelligence capable of playing the classic game of Connect 4. 
+            Leveraging the powerful Minimax algorithm, this AI is designed to analyze possible moves and outcomes, strategically selecting the best path to victory against the user. 
+            The project utilizes the Pygame library to create a visually engaging and interactive interface, allowing users to simulate games of Connect 4 against the AI.
           </p>
           {/* <a
             href='https://twitch-nextjs-tailwind.vercel.app/'
@@ -56,13 +52,13 @@ const connect4 = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next.JS
+                <RiRadioButtonFill className='pr-1' /> Python
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Pygame
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Minimax algorithm
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Next Auth

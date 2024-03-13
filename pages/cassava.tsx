@@ -27,7 +27,7 @@ const cassava = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This platform was constructed using ViteJS for the frontend and is hosted on Firebase. 
+            This platform was constructed using ViteJS for the frontend and is hosted on NBT server. 
             Researchers can efficiently collect and manage potato species and genomes data in our database through our cassava store website. 
             The user-friendly interface enables researchers to analyze the data effortlessly without the need for coding, significantly reducing the time required for analysis. 
             The website integrates Django as the backend framework and utilizes MongoDB for the database. 
